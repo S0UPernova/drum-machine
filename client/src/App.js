@@ -10,14 +10,18 @@ import soundSeven from "./vender/losing-drums.wav"
 import soundEight from "./vender/toy-drums-and-bell-ding.wav"
 import soundNine from "./vender/tribal-dry-drum.wav"
 const App = () => {
+  // plays the audio based on input
   function play(str) {
     let audio = document.getElementById(str);
     audio.play()
   }
+  // sends keystokes to switch statement
   window.document.onkeyup = function listener(event) {
       cleanSwitch(event.key.toUpperCase())
 
     }
+    // handles all the case logic for what audio to play from clicks and keystrokes,
+    // and triggers the display item function with an string to display
     const cleanSwitch = (params) => {
       switch(params){
         case "Q": play("Q")
@@ -49,14 +53,15 @@ const App = () => {
         break;
       }
     }
+    // changes display element text to last played sound
     const displayItem = (item) => {
       document.getElementById('display').innerText = item
     }
+
+    // button and audio tags 
+    // buttons have an onClick with params for switch statement
   return (
     <div id="drum-machine" className="container">
-      
-      
-
         <button id="one" className="drum-pad" onClick={() => cleanSwitch("Q")}>
           Q
           <audio src={soundOne} className="clip" id="Q"></audio>
@@ -101,10 +106,9 @@ const App = () => {
           C
           <audio src={soundNine} className="clip" id="C"></audio>
         </button>
-
-      <div id="display">todo fix this</div>
+      {/* this is used to display the last sound played */}
+      <div id="display">play a sound</div>
     </div>
   )
 }
-
 export default App;
