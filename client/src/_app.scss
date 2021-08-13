@@ -1,0 +1,20 @@
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: gainsboro;
+  
+  
+}
+.drum-pad {
+  font-size: 2rem;
+}
+#drum-machine {
+  padding:1em;
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  gap: 1em;
+}
+#display {
+  text-align: center;
+}
