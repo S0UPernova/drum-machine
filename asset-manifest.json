@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/drum-machine/static/css/main.d06dcce1.chunk.css",
+    "main.js": "/drum-machine/static/js/main.87c24a96.chunk.js",
+    "main.js.map": "/drum-machine/static/js/main.87c24a96.chunk.js.map",
+    "runtime-main.js": "/drum-machine/static/js/runtime-main.cc581fb8.js",
+    "runtime-main.js.map": "/drum-machine/static/js/runtime-main.cc581fb8.js.map",
+    "static/js/2.39ffaa25.chunk.js": "/drum-machine/static/js/2.39ffaa25.chunk.js",
+    "static/js/2.39ffaa25.chunk.js.map": "/drum-machine/static/js/2.39ffaa25.chunk.js.map",
+    "static/js/3.9267e14b.chunk.js": "/drum-machine/static/js/3.9267e14b.chunk.js",
+    "static/js/3.9267e14b.chunk.js.map": "/drum-machine/static/js/3.9267e14b.chunk.js.map",
+    "index.html": "/drum-machine/index.html",
+    "static/css/main.d06dcce1.chunk.css.map": "/drum-machine/static/css/main.d06dcce1.chunk.css.map",
+    "static/js/2.39ffaa25.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.39ffaa25.chunk.js.LICENSE.txt",
+    "static/media/bad-joke-drums.d8b0782b.wav": "/drum-machine/static/media/bad-joke-drums.d8b0782b.wav",
+    "static/media/drum-and-percussion.f04c68f2.wav": "/drum-machine/static/media/drum-and-percussion.f04c68f2.wav",
+    "static/media/drum-hit-with-eco.a0f08edc.wav": "/drum-machine/static/media/drum-hit-with-eco.a0f08edc.wav",
+    "static/media/drum-joke-accent.2439d7a2.wav": "/drum-machine/static/media/drum-joke-accent.2439d7a2.wav",
+    "static/media/hand-tribal-drum.dd4e8bb1.wav": "/drum-machine/static/media/hand-tribal-drum.dd4e8bb1.wav",
+    "static/media/knocking-sub-bass.d09457b8.wav": "/drum-machine/static/media/knocking-sub-bass.d09457b8.wav",
+    "static/media/losing-drums.f9b80854.wav": "/drum-machine/static/media/losing-drums.f9b80854.wav",
+    "static/media/toy-drums-and-bell-ding.ab32e48c.wav": "/drum-machine/static/media/toy-drums-and-bell-ding.ab32e48c.wav",
+    "static/media/tribal-dry-drum.39d05caf.wav": "/drum-machine/static/media/tribal-dry-drum.39d05caf.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc581fb8.js",
+    "static/js/2.39ffaa25.chunk.js",
+    "static/css/main.d06dcce1.chunk.css",
+    "static/js/main.87c24a96.chunk.js"
+  ]
+}
